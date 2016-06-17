@@ -43,6 +43,4 @@ weatherForecastApp.controller('forecastController', ['$scope', '$resource', 'cit
 
     $scope.weatherResult = $scope.weatherAPI.get({ q: $scope.city, cnt: 2 });
 
-    console.log($scope.weatherResult);
-
 }]);
